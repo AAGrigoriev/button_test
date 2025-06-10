@@ -1,5 +1,7 @@
 cmake_minimum_required(VERSION 3.5)
 
+set(CMAKE_AUTOMOC ON)
+
 project(CustomButton LANGUAGES CXX)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
@@ -12,7 +14,6 @@ add_executable(CustomButton
   main.cpp
   widget.cpp
   widget.h
-  widget.ui
   custombutton.cpp
   custombutton.h
 )
